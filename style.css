@@ -1,0 +1,81 @@
+/* import google font - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #CF9FFF;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 450px;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.container .pass-field{
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+
+.input-password{
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.pass-field .fa-eye,
+.pass-field .fa-eye-slash{
+    top: 50%;
+    right: 18px;
+    color: #999;
+    font-size: 19px;
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.div-requirements{
+    margin: 20px 10px;
+}
+
+.parag-mustcontain{
+    font-size: 22px;
+}
+
+.list-requirements{
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fa-circle{
+    font-size: 7px;
+    color: #999;
+    width: 20px;
+}
+
+span{
+    margin-left: 12px;
+}
