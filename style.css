@@ -79,3 +79,10 @@ li{
 span{
     margin-left: 12px;
 }
+
+.list-requirements li.valid i{
+    color: #0ebb48;
+}
+.list-requirements li.valid span{
+    color: #dfdfdf;
+}
